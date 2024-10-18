@@ -1,0 +1,27 @@
+.html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 { 
+	font-size: 5em;
+	text-align: center;
+}
+
+#output {
+	text-align: center;
+	font-size: 1em;
+	min-width: 50%;
+	width: fit-content;
+	max-width: 80%;
+	margin: auto;
+	display: block;
+	border: 2px solid black;
+	height: 70vh;
+	overflow-y: scroll;
+	line-height:1em;
+}
